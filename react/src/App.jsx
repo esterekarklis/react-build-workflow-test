@@ -22,7 +22,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Teste de concorrência 1
+          Teste de concorrência 2
         </p>
       </div>
       <p className="read-the-docs">
