@@ -3,7 +3,7 @@ name: Testar build React reutilizável
 on:
   push:
     branches:
-      - main
+      - develop
 
   workflow_dispatch:
 
