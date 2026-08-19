@@ -7,6 +7,9 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     uses: esterekarklis/github-workflows/.github/workflows/react-build.yml@main
@@ -14,3 +17,5 @@ jobs:
       node_version: "18.19.1"
       working_directory: "react"
       output_directory: "public-react"
+      commit_build: true
+      commit_message: "chore: atualiza build React"
