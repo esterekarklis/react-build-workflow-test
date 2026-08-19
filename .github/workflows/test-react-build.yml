@@ -1,0 +1,16 @@
+name: Testar build React reutilizável
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: esterekarklis/github-workflows/.github/workflows/react-build.yml@main
+    with:
+      node_version: "18.19.1"
+      working_directory: "react"
+      output_directory: "public-react"
