@@ -22,7 +22,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Build atualizado após merge na develop
+          Teste de concorrência 1
         </p>
       </div>
       <p className="read-the-docs">
